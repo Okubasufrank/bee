@@ -23,7 +23,9 @@ class App extends React.Component {
         ]
     }
 
-    removeCharacter = (index) => {
+  
+
+   removeCharacter = (index) => {
         const { characters } = this.state
 
         this.setState({
@@ -45,3 +47,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+
